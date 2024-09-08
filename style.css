@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hed {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    font-style: italic;
+    font-size: 2.5vw;
+}
+
+h1:hover {
+    background-image: linear-gradient(30deg ,rgb(199, 28, 28)0%, rgb(45, 126, 45)40%, rgb(47, 47, 145)100%);
+    color: transparent;
+    background-clip: text;
+    transition-duration: 0.8s;
+    transform: scale(3) skew(20deg);
+}
